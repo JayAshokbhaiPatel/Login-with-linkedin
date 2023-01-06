@@ -1,0 +1,5 @@
+# Ignore all CSS files:
+*.json
+*.html
+*.svg
+*.min.js

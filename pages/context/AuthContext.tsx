@@ -38,10 +38,8 @@ export const AuthContext = createContext<Context>({} as Context);
 
 function AuthProvider({ children }: PropTypes) {
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log('state: ', state);
 
   const login = (data: any) => {
-    console.log('data: ', data);
     dispatch({ type: 'LOGIN', payload: { data: data } });
   };
 

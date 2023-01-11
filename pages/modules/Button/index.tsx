@@ -13,7 +13,7 @@ function Button() {
 
     window.open(
       finalURL,
-      'Linkedin',
+      '_self',
       'menubar=no,location=no,resizable=no,scrollbars=no,status=no, width=' +
         width +
         ', height=' +
